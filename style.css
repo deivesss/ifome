@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Arial', Helvetica, sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+  color: #eaeaea;
+  line-height: 1.7;
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Título principal */
+h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ff4d4d;
+  text-shadow: 0 0 10px rgba(255, 77, 77, 0.4);
+}
+
+/* Subtítulos */
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffb347;
+}
+
+/* Título de impacto */
+h3 {
+  font-size: 2rem;
+  margin: 30px 0 10px;
+  color: #ff6b6b;
+  text-transform: uppercase;
+}
+
+/* Frases explosivas */
+h4 {
+  margin: 25px 0;
+  padding: 15px;
+  background: rgba(255, 0, 0, 0.15);
+  border-left: 5px solid #ff4d4d;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffdada;
+}
+
+/* Observação menor */
+h6 {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+  color: #dddddd;
+}
+
+/* Destaque final */
+h2:last-of-type {
+  margin-top: 40px;
+  font-size: 2.2rem;
+  color: #ff3333;
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.6rem;
+  }
+}
